@@ -28,7 +28,5 @@ function myFunction() {
     var localVar = "I am a local variable";
     console.log(localVar); // Accessible here
 }
-
-
 //cannot be declared here
 // console.log(localvar);
