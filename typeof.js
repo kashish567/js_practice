@@ -11,3 +11,6 @@ console.log(typeof null); // Output: "object" ( null is actually an object)
 console.log(typeof {}); // Output: "object"
 
 console.log(typeof function(){}); // Output: "function"
+
+var a = 2;
+console.log(typeof a);

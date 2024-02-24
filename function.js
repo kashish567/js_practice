@@ -6,13 +6,9 @@ let person = {
 };
 console.log(person);
 
-//constructor function
-function info(name, age, isStudent) {
-    this.name = name;
-    this.age = age;
-    this.isStudent = isStudent;
+//parameterized function
+function add(a,b)//parameters
+{
+    return a+b;
 }
-
-let Info = new info("Kashish", 20, true);
-console.log(Info);
-console.log(Info.name);
+console.log(add(10,5)) //arguments

@@ -15,11 +15,20 @@ console.log(x);
 
 //comparison operators
 let age = 25;
-console.log(age == 25);
+let ab = 20;
+let result=age===ab;
+console.log(result);
+console.log(age == '25');
 console.log(age === '25');
 console.log(age != 30);
 console.log(age > 20);
 console.log(age <=30);
+let o ={key:'value'};
+let p ={key1:'value1'};
+let r = o===p;
+console.log(r,"change")
+
+
 
 //logical operators
 let isLoggedIn =  true;
@@ -28,7 +37,7 @@ console.log(isLoggedIn && isAdmin);
 console.log(isLoggedIn || isAdmin);
 console.log(!isAdmin);
 
-
+//bitwise operators
 let c = 5; // 101
 let d = 3; // 011
 console.log(c & d); // Bitwise AND: 001 (1)
