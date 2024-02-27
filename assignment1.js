@@ -31,6 +31,19 @@ let even = myFilter(numb,(num)=> num%2===0);
 console.log(even);
 
 
+function myReduce(arr, callback, initialValue) {
+    let accumulator = initialValue === undefined ? arr[0] : initialValue;
+    let startIndex = initialValue === undefined ? 1 : 0;
+    for (let i = startIndex; i < arr.length; i++) {
+        accumulator = callback(accumulator, arr[i], i, arr);
+    }
+    return accumulator;
+}
+
+let num1 = [1, 2, 3, 4, 5];
+let sum = myReduce(num1, (acc, num) => acc + num, 0);
+console.log("Sum:", sum);
+
 
 //string methods
 //toUpperCase()
