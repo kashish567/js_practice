@@ -2,8 +2,9 @@ let Person = {
     name : "Vedant",
     age : 9,
     greet : function(){
-        console.log("Hello, my name is " + this.name);
+        console.log("Hello, my name is " + this.name)
     }
+   
 }
 Person.greet()
 
@@ -23,3 +24,13 @@ cat.speak()
 class Animal{
     
 }
+
+//
+let info = {
+    fname: "kashish",
+    lname: "bhanushali"
+};
+
+let fullname = info.fname + " " + info.lname;
+console.log(fullname);
+
