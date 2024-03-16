@@ -31,8 +31,18 @@ let Person = {
     name : "Vedant",
     age : 9,
     greet : function(){
-        console.log("Hello, my name is " + this.name)
+        console.log("Hello, my name is " + Person.name)
     }
    
 }
 Person.greet()
+
+
+let opera={
+    num1:10,
+    num2:20,
+    add: function(){
+        console.log(opera.num1+opera.num2)
+    }
+}
+opera.add()
