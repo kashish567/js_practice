@@ -1,5 +1,7 @@
 const fruits = ["mango","orange","banana"];
 console.log(fruits);
+fruits.push["kiwi"];
+console.log(fruits);
 
 //size
 let size =  fruits.length;
@@ -37,3 +39,14 @@ const veg = ["tomato","onion","radish"]
 
 const mixture = fruits.concat(veg);
 console.log(mixture);//output-[ 'Lemon', 'orange', 'kiwi', 'tomato', 'onion', 'radish' ]
+
+//accessing element inside array
+let arr = [[1,2,3],[4,5,6]];
+console.log(arr[0][1]);
+console.log(arr[1][2]);
+
+//
+const ab = ["mango","orange","banana"];
+console.log(ab);
+ab.push("kiwiew2e");
+console.log(ab);
