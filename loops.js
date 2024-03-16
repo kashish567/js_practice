@@ -23,7 +23,8 @@ const person={
     age: 10,
     city: "Bhiwandi"
 };
-for(let key in person){
-    console.log(key +":"+person[key]);
+console.log(person['name'])
+for(let x in person){
+    console.log(x + ":" +person[x]);
 }
     
